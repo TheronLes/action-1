@@ -17,6 +17,7 @@ jobs:
 
     - name: Executing Shell Script
       run: |
+         chmod +x new_ascii.sh
          ./new_ascii.sh
       
    # - name: Execute Cowsay CMD
