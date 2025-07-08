@@ -1,7 +1,9 @@
 name: Generate ASCII Artwork_v2
 
 on:
-  push
+  push:
+    branches:
+      - main  
 
 jobs:
   ascii_job_v2:
